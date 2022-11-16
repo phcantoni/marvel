@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    background-color: #1e1e1e;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 10vh;
+    color: white;
+  }
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30vw;
+    font-size: 20px;
+    font-family: montserrat, sans-serif;
+    font-weight: bolder;
+    list-style: none;
+  }
+  li {
+    cursor: pointer;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+  }
+  .imagem {
+    display: flex;
+    width: 100%;
+    height: 30vh;
+  }
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 60vh;
+  }
+  figure img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    height: 30vh;
+  }
+  figcaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 5vh;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 30vh;
+    background-color: #1e1e1e;
+  }
+  .pOne {
+    width: 37%;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+  }
+  .pTwo {
+    width: 37%;
+    text-align: center;
+    color: white;
+  }
+  
